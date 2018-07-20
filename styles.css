@@ -6,6 +6,31 @@ body {
   font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;;
 }
 
+a.goth-link {
+  color:#3A612D;
+}
+
+a.goth-link:visited{
+  color:#D2F0FA;
+}
+
+a.goth-link:hover, a.goth-link:focus, a.goth-link:active {
+  text-shadow: 2px 2px 2px #9a9a9a;
+}
+
+.impact {
+  text-align: center;
+  font-weight: bold;
+}
+
+.highlight-background {
+  background-color: #D2F0FA;
+}
+
+p.storybook::first-letter {
+  font-size: 200%;
+}
+
 .cta-container {
   margin: 1rem auto;
   padding: 0 1rem;
@@ -31,7 +56,20 @@ body {
   max-width: 300px;
 }
 
+.cta a {
+  text-decoration: none;
+  color: #2D5461;
+}
+
 footer {
   background-color: #D2F0FA;
   padding: 1rem;
 }
+
+input[type="submit"] {
+  border-radius:  .5rem;
+  color: #ffffff;
+  background-color: #3a612d;
+}
+
+
