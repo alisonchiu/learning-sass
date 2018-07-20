@@ -1,3 +1,7 @@
+article:first-of-type {
+  box-shadow: gray 3px 3px 8px;
+  background-color: #D2F0FA; }
+
 body {
   margin: 0;
   padding: 0;
@@ -7,12 +11,10 @@ body {
 
 a.goth-link {
   color: #3A612D; }
-
-a.goth-link:visited {
-  color: #D2F0FA; }
-
-a.goth-link:hover, a.goth-link:focus, a.goth-link:active {
-  text-shadow: 2px 2px 2px #9a9a9a; }
+  a.goth-link:visited {
+    color: #D2F0FA; }
+  a.goth-link:hover, a.goth-link:focus, a.goth-link:active {
+    text-shadow: 2px 2px 2px #9a9a9a; }
 
 .impact {
   text-align: center;
@@ -33,22 +35,20 @@ p.storybook::first-letter {
   align-items: center; }
 
 .cta {
+  box-shadow: gray 3px 3px 8px;
+  background-color: #C0FABE;
   text-align: center;
   display: flex;
   flex-flow: column nowrap;
   padding: 1rem;
   justify-content: center;
   align-items: space-around;
-  box-shadow: gray 3px 3px 8px;
-  background-color: #C0FABE;
   margin: 1rem; }
-
-.cta img {
-  max-width: 300px; }
-
-.cta a {
-  text-decoration: none;
-  color: #2D5461; }
+  .cta img {
+    max-width: 300px; }
+  .cta a {
+    text-decoration: none;
+    color: #2D5461; }
 
 footer {
   background-color: #D2F0FA;
@@ -57,6 +57,6 @@ footer {
 input[type="submit"] {
   border-radius: .5rem;
   color: #ffffff;
-  background-color: #3a612d; }
+  background-color: #2D5461; }
 
 /*# sourceMappingURL=new-styles.css.map */
